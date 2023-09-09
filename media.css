@@ -1,0 +1,137 @@
+@media screen and (max-width: 1050px) {
+    .navbar{
+        padding: 0 50px;
+    gap: 50px;
+    white-space: nowrap;
+    }
+    .collection{
+        display: flex;
+        gap: 10px;
+        font-size: 12px;
+    }
+    .content{
+        font-size: 18px;
+        color: #fff;
+    }
+    .content button{
+        transform: translateY(-100px);
+    }
+    .btn2{
+        margin-top: 150px;
+    }
+    .main{
+        height: 500px;
+    }
+    .content2{
+        font-size: 18px;
+        color: #fff;
+    }
+    .content2 button{
+        transform: translateY(-100px);
+    }
+    .main2{
+        height: 500px;
+        color: #000;
+    }
+    .content3{
+        font-size: 18px;
+        color: #fff;
+    }
+    .content3 button{
+        transform: translateY(-50px);
+    }
+    .main3{
+        height: 500px;
+        color: #000;
+    }
+    .reno{
+        height: 250px;
+        color: #fff;
+        font-size: 16px;
+    }
+    .box{
+    display: none;
+    }
+    .ad_s{
+        grid-template-columns: 1fr;
+        color: #000;
+    }
+    .ad{
+        font-size: 14px;
+    }
+    .present,.posts{
+        margin-top: 900px;
+    }
+    .post h3,.post span{
+        font-size: 14px;
+    color: #000;
+    }
+    .footer{
+        padding: 30px;
+    width: 100%;
+    }
+    .tag{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px){
+    .collection{
+        display: none;
+    }
+    .ham{
+        display: block;
+    }
+    .content h1,
+    .content h3{
+        font-size: 16px;
+        color: #fff;
+    }
+    .content button{
+        transform: translateY(-250px);
+    }
+    .main{
+        height: 350px;
+    }
+    .content2 h1,
+    .content2 h3{
+        font-size: 16px;
+        color: #fff;
+    }
+    .main2{
+        height: 350px;
+        color: #000;
+    }
+    .main2 button{
+        transform: translateY(-200px);
+    }
+    .content3 h1,
+    .content3 h3{
+        font-size: 16px;
+    }
+    .main3{
+        height: 300px;
+        color: #000;
+    }
+    .btn3{
+        padding: 5px 36px;
+    }
+    .post h3,.post span{
+        font-size: 10px;
+    color: #000;
+    }
+.present h1 {
+display: none;
+}
+.inps button{
+    padding: 10px 100px;
+    display: block;
+    margin: auto;
+}
+.footer{
+    padding: 30px;
+width: 100%;
+}
+.tag{
+display: none;
+}
+    }
